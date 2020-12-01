@@ -9,3 +9,10 @@ if money >= s:  # 比较运算符，：加回车
     money = money - s
     print('您的余额为:', money)
     print('交易结束')
+
+print('-------------双分支结构--------')  # 如果。。。不满足。。。。就。。。
+a = int(input('请输入一个整数:'))
+if a % 2 == 0:
+    print(a, '是偶数')
+else:
+    print(a, '是奇数')
